@@ -21,7 +21,7 @@ const Blog = ({ blog }) => {
       <p>
         {hashtags.map((hash, idx) => (
           <span key={idx}>
-            <a href="#{hash}"></a>
+            <a href="">#{hash} </a>
           </span>
         ))}
       </p>
